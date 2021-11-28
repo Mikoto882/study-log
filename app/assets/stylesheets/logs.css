@@ -49,10 +49,56 @@
 .log-header {
   height: 80px;
   padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 28px;
+  color: #333;
 }
 
 .submission{
   background-color: #fafafa;
   height: calc(100vh - 80px);
   padding: 35px 40px 0;
+  overflow: scroll;
+}
+
+.submissions {
+  margin: 10px 0 40px 0;
+}
+
+.upper-submission {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submission-name {
+  color: #434a54;
+  font-size: 24px;
+}
+
+.submission-date {
+  color: #999;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.medium-submission {
+  margin: 10px 0 0 20px;
+}
+
+.submission-subject {
+  color: #434a54;
+  font-size: 18px;
+}
+
+.lower-submission {
+  margin: 5px 0 0 30px;
+}
+
+.submission-text {
+  color: #434a54;
+  font-size: 15px;
 }
