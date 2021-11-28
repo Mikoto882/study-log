@@ -13,12 +13,30 @@
 .side-bar-header {
   height: 80px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-name a {
+  font-size: 24px;
+  color: #fafafa;
+  text-decoration: none;
 }
 
 .menu {
   background-color: #2f3e51;
   height: calc(100vh - 80px);
-  padding: 0 20px;
+  padding: 10px 20px 0 20px;
+}
+
+.menus a {
+  padding: 20px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
 }
 
 /* メイン（記録投稿）のcss */
