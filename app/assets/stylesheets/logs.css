@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+}
+
+/* サイドバーのcss */
+
+.side-bar {
+  background-color: #253141;
+  width: 200px;
+  height: 100vh;
+}
+
+.side-bar-header {
+  height: 80px;
+  padding: 0 20px;
+}
+
+.menu {
+  background-color: #2f3e51;
+  height: calc(100vh - 80px);
+  padding: 0 20px;
+}
+
+/* メイン（記録投稿）のcss */
+
+.log {
+  background-color: #ffffff;
+  width: calc(100vw - 200px);
+}
+
+.log-header {
+  height: 80px;
+  padding: 0 40px;
+}
+
+.submission{
+  background-color: #fafafa;
+  height: calc(100vh - 80px);
+  padding: 35px 40px 0;
+}
