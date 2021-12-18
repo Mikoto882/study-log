@@ -1,0 +1,48 @@
+/* ログイン画面のcss */
+
+.contents-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vh - 30px);
+  height: calc(100vh - 300px);
+  padding: 0 100px;
+}
+
+.log-in-title {
+  display: flex;
+  justify-content: center;
+  color: #253141;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.field {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.field input {
+  width: 400px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  height: 40px;
+}
+
+.actions input {
+  background-color: #253141;
+  color: white;
+  font-size: 16px;
+  padding: 0 10px;
+}
